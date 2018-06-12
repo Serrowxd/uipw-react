@@ -37,6 +37,8 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 
 Font family can be found here: https://fonts.google.com/specimen/Roboto
 
+**All CSS can be found in `main.scss` - exported with SASS to `index.css`**
+
 #### GENERAL STYLES
 
 - Background: #FFFFFF

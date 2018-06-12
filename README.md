@@ -12,6 +12,15 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 
 # Documentation
 
+### ToDo
+
+- Pixel-Perfect Navigation / Implement animation for Hambuger / Change size
+- Import main background image and create landing screen.
+
+### Issues
+
+- Display image provided is not enough to fit the viewport, will need to find something more suitable. Image scaling is off at 1920x1080 + but lower is fine.
+
 ## Dependencies
 
 [`React`](https://reactjs.org/)

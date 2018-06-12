@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -90,7 +91,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,29 +105,24 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -137,37 +132,37 @@ table {
 html,
 body {
   background-color: #ffffff !important;
-  font-family: "Roboto", Arial, sans-serif !important;
+  font-family: 'Roboto', Arial, sans-serif !important;
 }
 
 /* !! NavBar !! */
+
 .nav {
   background-color: #98a4af !important;
-}
-.nav .b {
-  color: white !important;
-  padding-left: 7rem;
-  font-size: 1.8rem;
-}
-.nav .navbar-toggler {
-  border-color: transparent !important;
-  margin-right: 7rem;
-}
-.nav .navbar-toggler-icon {
-  background-image: url("./DesignFiles/img/nav-hamburger.png") !important;
+  .b {
+    color: white !important;
+    padding-left: 7rem;
+    font-size: 1.8rem;
+  }
+  .navbar-toggler {
+    border-color: transparent !important;
+    margin-right: 7rem;
+  }
+  .navbar-toggler-icon {
+    background-image: url('./DesignFiles/img/nav-hamburger.png') !important;
+  }
 }
 
 /* !! Header !! */
+
 .jumbotron {
   margin: 0 !important;
   padding: 0 !important;
+  .jumboImg {
+    max-width: 120rem;
+    width: 100% !important;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 50%;
+  }
 }
-.jumbotron .jumboImg {
-  max-width: 120rem;
-  width: 100% !important;
-  height: 90vh;
-  object-fit: cover;
-  object-position: 50%;
-}
-
-/*# sourceMappingURL=../index.css.map */

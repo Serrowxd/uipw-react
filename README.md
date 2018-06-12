@@ -8,7 +8,7 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 
 1.  Fork and Clone.
 2.  In Gitbash/Terminal `yarn` or `npm i` to install dependencies.
-3.  Then `npm start` or `yarn init` to create a locally hosted instance.
+3.  Then `npm start` or `yarn start` to create a locally hosted instance.
 
 # Documentation
 
@@ -21,6 +21,8 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 [`Bootstrap`](https://getbootstrap.com/)
 
 [`React-Router`](https://github.com/ReactTraining/react-router)
+
+[`GreenSock`](https://greensock.com/)
 
 ## Styles
 
@@ -95,5 +97,3 @@ Background: #828282
 - Line Height: 85px
 - Color: #FFFFFF
 - Hover Color: #222222
-
-Test

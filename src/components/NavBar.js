@@ -7,10 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from 'reactstrap';
 
 class NavBar extends Component {
@@ -32,7 +28,7 @@ class NavBar extends Component {
       <div>
         <Navbar className="nav" light>
           <NavbarBrand href="/" className="b">
-            S&J
+            <strong> S&J </strong>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

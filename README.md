@@ -15,6 +15,7 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 ### ToDo
 
 - Pixel-Perfect Navigation / Implement animation for Hambuger / Change size
+
 - Import main background image and create landing screen.
 
 - There is absolutely zero reactivity to lower layouts that 1920x1080 - this will need to be fixed.

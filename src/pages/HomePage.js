@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 
+import { Container, Row, Col } from 'reactstrap';
+
+// Images
+
+import img1 from '../assets/DesignFiles/img/home/home-img-1.png';
+import img2 from '../assets/DesignFiles/img/home/home-img-2.png';
+import img3 from '../assets/DesignFiles/img/home/home-villas-img.png';
+
 // Imports
 import NavBar from '../components/NavBar';
 import Header from '../components/Header';
@@ -8,16 +16,108 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <div className="home-page">
-          <NavBar />
-          <Header />
-        </div>
-
-        <section id="one" className="main style1">
-          <div>
-            <h1> Henlo (OvO") </h1>
+        <Container fluid className="container-1">
+          <div className="home-page">
+            <NavBar />
+            <Header />
           </div>
-        </section>
+        </Container>
+
+        <Container fluid>
+          <section id="one" className="main style1">
+            <div>
+              <Row>
+                <Col sm={{ size: 5, offset: 1 }} className="text1">
+                  <h1>
+                    <strong> Smith & Jones Architects </strong>
+                  </h1>
+                  <h3 className="m-top">
+                    Et sed autem causae appareat, tempor abhorreant te mei facer
+                    facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo
+                    etiam laboramus dissentient in, nec no errem.
+                  </h3>
+                  <button className="m-top"> Learn More </button>
+                </Col>
+                <Col sm={{ size: 5, offset: 0 }}>
+                  <img src={img1} class="img1" alt="art" />
+                </Col>
+              </Row>
+            </div>
+          </section>
+        </Container>
+
+        <Container fluid>
+          <section id="two" className="main style2">
+            <div>
+              <Row>
+                <Col sm={{ size: 5, offset: 1 }}>
+                  <img src={img2} class="img1" alt="art" />
+                </Col>
+                <Col sm={{ size: 5, offset: 0 }} className="text1">
+                  <h1>
+                    <strong> Futuristic Designs </strong>
+                  </h1>
+                  <h3 className="m-top">
+                    Et sed autem causae appareat, tempor abhorreant te mei facer
+                    facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo
+                    etiam laboramus dissentient in, nec no errem.
+                  </h3>
+                  <button className="m-top"> View Designs </button>
+                </Col>
+              </Row>
+            </div>
+          </section>
+        </Container>
+
+        <Container fluid>
+          <section id="three" className="main style3">
+            <div className="height-div">
+              <Row>
+                <Col sm={{ size: 8, offset: 1 }}>
+                  <h2>
+                    <strong>Recent Projects </strong>
+                  </h2>
+                </Col>
+              </Row>
+              <Row className="row-height-1">
+                <Col sm={{ size: 10, offset: 1 }}>
+                  <img src={img3} class="img3" alt="art" />
+                  <h1 className="float-me">T H E V I L L A S</h1>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={{ size: 4, offset: 4 }}>
+                  <h3 className="low-text-main">
+                    The Villas bring to the table win-win survival strategies to
+                    ensure proactive domination. At the end of the day, going
+                    forward, a new normal that has evolved from generation X is
+                    on the runway heading towards a streamlined cloud solution.
+                  </h3>
+                  <h3>
+                    The Villas bring to the table win-win survival strategies to
+                    ensure proactive domination. At the end of the day, going
+                    forward, a new normal that has evolved from generation X is
+                    on the runway heading towards a streamlined cloud solution.
+                  </h3>
+                </Col>
+              </Row>
+            </div>
+          </section>
+        </Container>
+
+        <Container fluid>
+          <section id="three" className="main style3">
+            <div>
+              <Row>
+                <Col sm={{ size: 8, offset: 1 }}>
+                  <h2>
+                    <strong>Recent Projects </strong>
+                  </h2>
+                </Col>
+              </Row>
+            </div>
+          </section>
+        </Container>
       </div>
     );
   }

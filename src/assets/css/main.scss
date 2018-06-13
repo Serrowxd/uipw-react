@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html,
@@ -185,4 +185,68 @@ body {
       font-size: 500%;
     }
   }
+}
+
+/* Container */
+
+.container-1 {
+  height: 100vh;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.row {
+  max-width: 100%;
+}
+
+/* HomePage Styles */
+
+.main {
+  margin-top: 4rem;
+  .text1 {
+    margin-top: 5.5rem;
+  }
+  .img1 {
+    width: 90%;
+  }
+  .m-top {
+    margin-top: 2rem;
+  }
+}
+
+.style2,
+.style3 {
+  margin-top: 8rem;
+}
+
+.img3 {
+  margin-top: 3rem;
+  width: 100%;
+  position: absolute;
+}
+
+.float-me {
+  background: lightgray;
+  border: 10px solid lightgray;
+  position: absolute;
+  left: 75rem;
+  top: 26rem;
+  padding: 30px;
+}
+
+.row-height-1 {
+  height: 60vh;
+}
+
+#three {
+  height: 100vh;
+}
+
+.low-text-main {
+  padding-bottom: 30px;
 }

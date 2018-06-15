@@ -33,11 +33,11 @@ class HomePage extends Component {
                   <h1>
                     <strong> Smith & Jones Architects </strong>
                   </h1>
-                  <h3 className="m-top">
+                  <h4 className="m-top">
                     Et sed autem causae appareat, tempor abhorreant te mei facer
                     facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo
                     etiam laboramus dissentient in, nec no errem.
-                  </h3>
+                  </h4>
                   <button className="m-top"> Learn More </button>
                 </Col>
                 <Col sm={{ size: 5, offset: 0 }}>
@@ -59,11 +59,11 @@ class HomePage extends Component {
                   <h1>
                     <strong> Futuristic Designs </strong>
                   </h1>
-                  <h3 className="m-top">
+                  <h4 className="m-top">
                     Et sed autem causae appareat, tempor abhorreant te mei facer
                     facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo
                     etiam laboramus dissentient in, nec no errem.
-                  </h3>
+                  </h4>
                   <button className="m-top"> View Designs </button>
                 </Col>
               </Row>
@@ -89,18 +89,18 @@ class HomePage extends Component {
               </Row>
               <Row>
                 <Col sm={{ size: 4, offset: 4 }}>
-                  <h3 className="low-text-main">
+                  <h4 className="low-text-main">
                     The Villas bring to the table win-win survival strategies to
                     ensure proactive domination. At the end of the day, going
                     forward, a new normal that has evolved from generation X is
                     on the runway heading towards a streamlined cloud solution.
-                  </h3>
-                  <h3>
+                  </h4>
+                  <h4>
                     The Villas bring to the table win-win survival strategies to
                     ensure proactive domination. At the end of the day, going
                     forward, a new normal that has evolved from generation X is
                     on the runway heading towards a streamlined cloud solution.
-                  </h3>
+                  </h4>
                 </Col>
               </Row>
             </div>
@@ -118,18 +118,18 @@ class HomePage extends Component {
               </Row>
               <Row>
                 <Col sm={{ size: 4, offset: 4 }}>
-                  <h3 className="low-text-main">
+                  <h4 className="low-text-main">
                     The Outskirts bring to the table win-win survival strategies
                     to ensure proactive domination. At the end of the day, going
                     forward, a new normal that has evolved from generation X is
                     on the runway heading towards a streamlined cloud solution.
-                  </h3>
-                  <h3>
+                  </h4>
+                  <h4>
                     The Outskirts bring to the table win-win survival strategies
                     to ensure proactive domination. At the end of the day, going
                     forward, a new normal that has evolved from generation X is
                     on the runway heading towards a streamlined cloud solution.
-                  </h3>
+                  </h4>
                 </Col>
               </Row>
             </div>
@@ -147,18 +147,18 @@ class HomePage extends Component {
               </Row>
               <Row>
                 <Col sm={{ size: 4, offset: 4 }}>
-                  <h3 className="low-text-main">
+                  <h4 className="low-text-main">
                     The Blocks bring to the table win-win survival strategies to
                     ensure proactive domination. At the end of the day, going
                     forward, a new normal that has evolved from generation X is
                     on the runway heading towards a streamlined cloud solution.
-                  </h3>
-                  <h3>
+                  </h4>
+                  <h4>
                     The Blocks bring to the table win-win survival strategies to
                     ensure proactive domination. At the end of the day, going
                     forward, a new normal that has evolved from generation X is
                     on the runway heading towards a streamlined cloud solution.
-                  </h3>
+                  </h4>
                 </Col>
               </Row>
             </div>

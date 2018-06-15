@@ -16,15 +16,17 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 
 - Pixel-Perfect Navigation / Implement animation for Hambuger / Change size
 
-- Import main background image and create landing screen.
-
 - There is absolutely zero reactivity to lower layouts that 1920x1080 - this will need to be fixed.
 
 - `Future:` Shift all the text into state `{this.text}` and create two layouts, allowing for mobile/desktop layouts to exist.
 
+- Colors are off, will need to be adjusted. Same with Text.
+
 ### Issues
 
-- Display image provided is not enough to fit the viewport, will need to find something more suitable. Image scaling is off at 1920x1080 + but lower is fine.
+- Display image provided is not enough to fit the viewport, will need to find something more suitable. Image scaling is off at 1920x1080 + but lower is fine. Try using Z-Axis to shift the original image?
+
+- NavBar on HomePage displays as `text-align: center`, by fixing this the page is skewed and will need to be redone.
 
 ## Dependencies
 
@@ -37,6 +39,14 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 [`React-Router`](https://github.com/ReactTraining/react-router)
 
 [`GreenSock`](https://greensock.com/)
+
+## Routes
+
+`HomePage` = /
+
+`Services` = /services
+
+`Contact` = /contact
 
 ## Styles
 

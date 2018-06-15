@@ -278,3 +278,40 @@ body {
   // margin-top: 0.7rem; // breaks bottom of page.
   text-align: center;
 }
+
+/* Contact Section */
+
+/* Header */
+
+.contact-jumbo {
+  position: absolute;
+  width: 100%;
+  height: 30vh !important;
+}
+
+.contact-jumbo-contain {
+  height: 30vh;
+}
+
+.contact-float {
+  position: absolute;
+  float: left;
+  .c-Font {
+    font-size: 5rem;
+    padding-top: 11.5rem;
+    margin-left: 11rem;
+  }
+}
+
+.contact-container {
+  margin-top: 3rem;
+  margin-bottom: -8rem;
+}
+
+.contact-text-touch {
+  padding-bottom: 3rem;
+}
+
+.we-work-here {
+  margin-top: 3rem;
+}

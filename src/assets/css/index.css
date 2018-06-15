@@ -229,11 +229,19 @@ body {
   position: absolute;
 }
 
-.float-me {
+.float-me-right {
   background: lightgray;
   border: 10px solid lightgray;
   position: absolute;
   left: 75rem;
+  top: 26rem;
+  padding: 30px;
+}
+
+.float-me-left {
+  background: lightgray;
+  border: 10px solid lightgray;
+  position: absolute;
   top: 26rem;
   padding: 30px;
 }
@@ -248,6 +256,24 @@ body {
 
 .low-text-main {
   padding-bottom: 30px;
+}
+
+/* Footer */
+.container-foot {
+  margin-top: 10rem;
+  height: 20rem;
+  background: lightgray;
+}
+.container-foot .foot-talk {
+  padding-top: 5rem;
+}
+
+.footer-col {
+  margin-right: 4rem !important;
+}
+
+.copyright {
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */

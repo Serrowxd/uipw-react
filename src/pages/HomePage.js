@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import { Container, Row, Col } from 'reactstrap';
 
 // Images
@@ -7,10 +6,13 @@ import { Container, Row, Col } from 'reactstrap';
 import img1 from '../assets/DesignFiles/img/home/home-img-1.png';
 import img2 from '../assets/DesignFiles/img/home/home-img-2.png';
 import img3 from '../assets/DesignFiles/img/home/home-villas-img.png';
+import img4 from '../assets/DesignFiles/img/home/home-outskirts-img.png';
+import img5 from '../assets/DesignFiles/img/home/home-the-blocks-img.png';
 
 // Imports
 import NavBar from '../components/NavBar';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 class HomePage extends Component {
   render() {
@@ -82,7 +84,7 @@ class HomePage extends Component {
               <Row className="row-height-1">
                 <Col sm={{ size: 10, offset: 1 }}>
                   <img src={img3} class="img3" alt="art" />
-                  <h1 className="float-me">T H E V I L L A S</h1>
+                  <h1 className="float-me-right">T H E V I L L A S</h1>
                 </Col>
               </Row>
               <Row>
@@ -107,17 +109,63 @@ class HomePage extends Component {
 
         <Container fluid>
           <section id="three" className="main style3">
-            <div>
+            <div className="height-div">
+              <Row className="row-height-1">
+                <Col sm={{ size: 10, offset: 1 }}>
+                  <img src={img4} class="img3" alt="art" />
+                  <h1 className="float-me-left">O U T S K I R T S</h1>
+                </Col>
+              </Row>
               <Row>
-                <Col sm={{ size: 8, offset: 1 }}>
-                  <h2>
-                    <strong>Recent Projects </strong>
-                  </h2>
+                <Col sm={{ size: 4, offset: 4 }}>
+                  <h3 className="low-text-main">
+                    The Outskirts bring to the table win-win survival strategies
+                    to ensure proactive domination. At the end of the day, going
+                    forward, a new normal that has evolved from generation X is
+                    on the runway heading towards a streamlined cloud solution.
+                  </h3>
+                  <h3>
+                    The Outskirts bring to the table win-win survival strategies
+                    to ensure proactive domination. At the end of the day, going
+                    forward, a new normal that has evolved from generation X is
+                    on the runway heading towards a streamlined cloud solution.
+                  </h3>
                 </Col>
               </Row>
             </div>
           </section>
         </Container>
+
+        <Container fluid>
+          <section id="three" className="main style3">
+            <div className="height-div">
+              <Row className="row-height-1">
+                <Col sm={{ size: 10, offset: 1 }}>
+                  <img src={img5} class="img3" alt="art" />
+                  <h1 className="float-me-right">T H E B L O C K S</h1>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={{ size: 4, offset: 4 }}>
+                  <h3 className="low-text-main">
+                    The Blocks bring to the table win-win survival strategies to
+                    ensure proactive domination. At the end of the day, going
+                    forward, a new normal that has evolved from generation X is
+                    on the runway heading towards a streamlined cloud solution.
+                  </h3>
+                  <h3>
+                    The Blocks bring to the table win-win survival strategies to
+                    ensure proactive domination. At the end of the day, going
+                    forward, a new normal that has evolved from generation X is
+                    on the runway heading towards a streamlined cloud solution.
+                  </h3>
+                </Col>
+              </Row>
+            </div>
+          </section>
+        </Container>
+
+        <Footer />
       </div>
     );
   }

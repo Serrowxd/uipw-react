@@ -20,6 +20,8 @@ Designs courtesy of [Josh Knell](https://github.com/BigKnell).
 
 - There is absolutely zero reactivity to lower layouts that 1920x1080 - this will need to be fixed.
 
+- `Future:` Shift all the text into state `{this.text}` and create two layouts, allowing for mobile/desktop layouts to exist.
+
 ### Issues
 
 - Display image provided is not enough to fit the viewport, will need to find something more suitable. Image scaling is off at 1920x1080 + but lower is fine.

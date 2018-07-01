@@ -26,7 +26,7 @@ class HomePage extends Component {
         </Container>
 
         <Container fluid>
-          <section id="one" className="main style1">
+          <section id="one" className="main style1 slideAnim">
             <div>
               <Row>
                 <Col sm={{ size: 5, offset: 1 }} className="text1">
@@ -38,9 +38,9 @@ class HomePage extends Component {
                     facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo
                     etiam laboramus dissentient in, nec no errem.
                   </h4>
-                  <button className="m-top"> Learn More </button>
+                  <button className="m-top-button"> Learn More </button>
                 </Col>
-                <Col sm={{ size: 5, offset: 0 }}>
+                <Col sm={{ size: 5, offset: 0 }} className="colAnim">
                   <img src={img1} class="img1" alt="art" />
                 </Col>
               </Row>
@@ -49,10 +49,10 @@ class HomePage extends Component {
         </Container>
 
         <Container fluid>
-          <section id="two" className="main style2">
+          <section id="two" className="main style2 slideAnim">
             <div>
               <Row>
-                <Col sm={{ size: 5, offset: 1 }}>
+                <Col sm={{ size: 5, offset: 1 }} className="colAnim">
                   <img src={img2} class="img1" alt="art" />
                 </Col>
                 <Col sm={{ size: 5, offset: 0 }} className="text1">
@@ -72,7 +72,7 @@ class HomePage extends Component {
         </Container>
 
         <Container fluid>
-          <section id="three" className="main style3">
+          <section id="three" className="main style3 ">
             <div className="height-div">
               <Row>
                 <Col sm={{ size: 8, offset: 1 }}>

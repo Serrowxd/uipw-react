@@ -1,0 +1,34 @@
+/* HomePage Slide/Fade Upper */
+
+.slideAnim {
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow: hidden !important;
+}
+
+.colAnim {
+  animation-duration: 4s;
+  animation-name: fadein;
+  overflow: hidden !important;
+}
+
+@keyframes slidein {
+  from {
+    padding: 10%;
+    display: none;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* HomePage Slide/Fade Upper End */
